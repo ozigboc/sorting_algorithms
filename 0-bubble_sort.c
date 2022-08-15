@@ -1,8 +1,8 @@
 #include "sort.h"
 /**
- *  * bubble_sort - sorts an array with bubble algorithm
- *   * @array: array to sort
- *    * @size: size of array
+ * bubble_sort - sorts an array with bubble algorithm
+ * @array: array to sort
+ * @size: size of array
  */
 void bubble_sort(int *array, size_t size)
 {
