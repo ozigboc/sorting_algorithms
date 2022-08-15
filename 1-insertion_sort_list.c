@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- *  * insertion_sort_list - sorts list with insertion sort
- *   * @list: input list to sort
+ * insertion_sort_list - sorts list with insertion sort
+ * @list: input list to sort
  */
 void insertion_sort_list(listint_t **list)
 {
@@ -31,11 +31,11 @@ void insertion_sort_list(listint_t **list)
 }
 
 /**
- * * swap_list - swaps the position of two nodes in a linked list
- * * @pn: previous node
- * * @temp: temp
- * * @nxt: next node
- * * @h: head of list
+ * swap_list - swaps the position of two nodes in a linked list
+ * @pn: previous node
+ * @temp: temp
+ * @nxt: next node
+ * @h: head of list
  */
 void swap_list(listint_t *pn, listint_t *temp, listint_t *nxt, listint_t **h)
 {
